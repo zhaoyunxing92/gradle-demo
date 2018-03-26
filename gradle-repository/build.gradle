@@ -1,5 +1,5 @@
-//group 'com.sunny'
-//version '1.0-SNAPSHOT'
+group 'com.sunny'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
