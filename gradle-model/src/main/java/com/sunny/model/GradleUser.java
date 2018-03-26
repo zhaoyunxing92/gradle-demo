@@ -15,6 +15,13 @@ public class GradleUser implements Serializable {
     private String name;
     private Integer age;
 
+    public GradleUser() {
+    }
+
+    public GradleUser(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
