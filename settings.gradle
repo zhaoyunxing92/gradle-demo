@@ -1,2 +1,5 @@
 rootProject.name = 'gradle-demo'
+include 'gradle-model'
+include 'gradle-repository'
+include 'gradle-web'
 
