@@ -1,13 +1,18 @@
 group 'com.sunny'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+//apply plugin: 'java'
 
 // 添加war插件
-apply plugin: 'war'
+//apply plugin: 'war'
 
+//sourceCompatibility = 1.8
+//配置公共模块
+allprojects {
+    apply Plugin: 'java'
+    sourceCompatibility = 1.8
+}
 
-sourceCompatibility = 1.8
 //jar 仓库 按照仓库顺序执行
 repositories {
     //本地仓库
@@ -79,5 +84,5 @@ configurations.all {
         //强制制定版本
         force 'org.slf4j:slf4j-api:1.7.22'
     }
-   
+
 }
